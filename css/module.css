@@ -429,6 +429,8 @@
     .m-table-wrap .m-table {white-space: nowrap;}
     .m-table.type01 th {padding:5px; font-size:12px; word-break: keep-all;}
     .m-table.type01 td {padding:5px; font-size:12px; word-break: keep-all;}
+    .en .m-table.type01 th {font-size:10px;}
+    .en .m-table.type01 td {font-size:10px;}
 }
 
 .m-table.type02 {border-top:2px solid black;}
