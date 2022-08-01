@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../css/module.css">
     <link rel="stylesheet" href="../css/style.css">
 
-    <script src="../js/jquery-1.7.1.min.js"></script>
+    <script src="../js/jquery-1.12.4.js"></script>
     <script src="../js/swiper.min.js"></script>
     <script src="../js/aos-2.3.1.js"></script>
     <script src="../js/common.js"></script>
@@ -31,24 +31,28 @@
 
         <div class="wrap">
             <a href="#" class="logo">
-                <img src="../img/logo.png" alt="">
+                <img src="../img/logo-color.png" alt="">
             </a>
 
             <nav class="navs">
                 <div class="nav">
-                    <a href="#" class="text">식단</a>
+                    <a href="#company" class="text">회사소개</a>
                 </div>
 
                 <div class="nav">
-                    <a href="#" class="text">단품</a>
+                    <a href="#product" class="text">제품소개</a>
                 </div>
 
                 <div class="nav">
-                    <a href="#" class="text">이벤트</a>
+                    <a href="#gallery" class="text">시공갤러리</a>
                 </div>
 
                 <div class="nav">
-                    <a href="#" class="text">고객센터</a>
+                    <a href="#buy" class="text">구매하기</a>
+                </div>
+
+                <div class="nav">
+                    <a href="#catalog" class="text">카탈로그</a>
                 </div>
             </nav>
 
@@ -59,6 +63,10 @@
     <div class="main">
         <div class="area-main">
             <section class="section section01">
+                <a href="#" class="logo">
+                    <img src="../img/logo.png" alt="">
+                </a>
+
                 <div class="swiper">
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
@@ -96,7 +104,7 @@
                 <img src="../img/scroll.png" alt="" class="scroll">
             </section>
 
-            <section class="section section02">
+            <section class="section section02" id="company">
                 <div class="wrap-big">
                     <div class="section-title">
                         <p class="sub">ANOTHER LEVEL, GOGOTECH</p>
@@ -250,7 +258,7 @@
                 </div>
             </section>
 
-            <section class="section section03">
+            <section class="section section03" id="product">
                 <div class="wrap">
                     <div class="section-title">
                         <img src="../img/line.png" alt="" class="deco">
@@ -581,7 +589,7 @@
                                 <div class="box">
                                     <div class="box-content">
                                         <h3 class="title">기존 제품 설치방법</h3>
-
+                                        
                                         <div class="items">
                                             <div class="item-wrap">
                                                 <div class="item">
@@ -624,7 +632,11 @@
                                         </div>
                                     </div>
 
-                                    <img src="../img/base-tool.jpg" alt="" class="img">
+                                    <div class="box-img">
+                                        <img src="../img/circles.png" alt="" class="circles">
+
+                                        <img src="../img/base-tool.jpg" alt="" class="img">
+                                    </div>
                                 </div>
                             </div>
 
@@ -636,7 +648,8 @@
 
                                     <div class="circles">
                                         <p class="circle">옹벽</p>
-                                        <img src="../img/dash.png" alt="" class="deco">
+                                        <img src="../img/dash.png" alt="" class="deco pc">
+                                        <img src="../img/dash-m.png" alt="" class="deco m">
                                         <p class="circle">AHA보드</p>
                                     </div>
 
@@ -811,7 +824,8 @@
                                 <div class="item-wrap right">
                                     <div class="item">
                                         <div class="content">
-                                            <img src="../img/deco-paper.png" alt="">
+                                            <img src="../img/deco-paper.png" alt="" class="pc">
+                                            <img src="../img/deco-paper-m.png" alt="" class="m">
                                         </div>
                                     </div>
                                 </div>
@@ -821,7 +835,7 @@
                 </div>
             </section>
 
-            <section class="section section06">
+            <section class="section section06" id="gallery">
                 <div class="wrap">
                     <div class="section-title">
                         <p class="sub">AHABOARDGALLERY</p>
@@ -905,42 +919,118 @@
                     </div>
                 </div>
             </section>
+
+            <section class="section section07" id="buy">
+                <div class="wrap">
+                    <a href="#" target="_blank" class="banner banner01">
+                        <div class="content">
+                            <span class="category">차원이 다른 혁신적인 강화보드</span>
+                            <h3 class="title">스마트 스토어</h3>
+                            <p class="body">바로가기</p>
+                        </div>
+
+                        <img src="../img/banner1.png" alt="">
+                    </a>
+
+                    <a href="#" target="_blank" class="banner banner02">
+                        <div class="content">
+                            <span class="category">다양한 종류, 다채로운 소재</span>
+                            <h3 class="title">공식홈페이지</h3>
+                            <p class="body">바로가기</p>
+                        </div>
+
+                        <img src="../img/banner2.png" alt="">
+                    </a>
+                </div>
+            </section>
+
+            <section class="section08" id="catalog">
+                <div class="wrap">
+                    <div class="btn-wrap">
+                        <a href="#" class="btn-download">
+                            AHA보드 카탈로그 다운로드
+                            <img src="../img/download-white.png" alt="">
+                        </a>
+                    </div>
+
+                    <img src="../img/top.png" alt="" class="btn-top">
+
+                    <img src="../img/apart.png" alt="" class="deco">
+                </div>
+            </section>
         </div>
     </div>
 
     <footer class="footer">
-        <div class="wrap">
-            <img src="../img/logo.png" alt="" class="logo">
+        <div class="wrap-big">
+            <img src="../img/logo-footer.png" alt="" class="logo">
 
             <div class="box-infos">
                 <div class="infos">
-                    <p class="info">(주)뽀뽀뜨</p>
-                    <p class="info">대표 최영미</p>
-                    <p class="info">661-87-00413</p>
-                    <p class="info">Tel. 1522-2860</p>
-                    <p class="info">주소 강원도 춘천시 퇴계공단1길 61-11(퇴계동)</p>
+                    <p class="info">
+                        <span class="info-title">상호</span>
+                        <span class="info-body">고고테크</span>
+                    </p>
+                    <p class="info">
+                        <span class="info-title">사업자 번호</span>
+                        <span class="info-body">
+674-86-02180
+                        </span>
+                    </p>
+                    <p class="info">
+                        <span class="info-title">
+                            대표자
+
+                        </span>
+                        <span class="info-body">
+                            윤지영
+
+                        </span>
+                    </p>
+                    <p class="info">
+                        <span class="info-title">
+                            대표전화
+
+                        </span>
+                        <span class="info-body">
+                            031-693-9385
+
+                        </span>
+                    </p>
+                    <p class="info">
+                        <span class="info-title">
+                            FAX
+                        </span>
+                        <span class="info-body">
+                            031-693-9386
+
+                        </span>
+                    </p>
+                    <p class="info">
+                        <span class="info-title">
+                            주소
+
+                        </span>
+                        <span class="info-body">
+                            경기도 용인시 처인구 이동읍 화산로 94번길 27-35
+                        </span>
+                    </p>
                 </div>
+
                 <div class="infos">
-                    <p class="info">개인정보관리책임자 신형준</p>
-                    <p class="info">통신판매업신고번호 2016-강원춘천-0167</p>
+                    <p class="info">
+                        <span class="info-title">총판</span>
+                        <span class="info-body">
+                            주식회사 머큐리미디어랩
+                        </span>
+                    </p>
+                    <p class="info">
+                        <span class="info-title">주소</span>
+                        <span class="info-body">
+                            서울시 영등포구 선유로 9길 10 SKV1 CENTER 702호
+                        </span>
+                    </p>
                 </div>
-
-                <p class="copyright">Copyright@2021 by (주)뽀뽀뜨 Corporation ALL RIGHT RESERVED.</p>
-            </div>
-
-            <div class="socials">
-                <a href="#" target="_blank" class="social">
-                    <img src="../img/circleFacebook.png" alt="">
-                </a>
-                <a href="#" target="_blank" class="social">
-                    <img src="../img/circleInsta.png" alt="">
-                </a>
-                <a href="#" target="_blank" class="social">
-                    <img src="../img/circleKakao.png" alt="">
-                </a>
-                <a href="#" target="_blank" class="social">
-                    <img src="../img/circleYoutube.png" alt="">
-                </a>
             </div>
         </div>
 
@@ -964,6 +1054,10 @@
         breakpoints: {
 
         }
+    });
+
+    $(".btn-top").click(function(){
+       $("html,body").scrollTop(0);
     });
 </script>
 </body>
