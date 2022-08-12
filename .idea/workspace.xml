@@ -6,31 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eca974fa-6a4a-401f-9dd3-693ed8ca729f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/게img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/계란img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/고등어img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/닭고기img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/대두img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/돼지img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/땅콩img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/마스크 그룹 5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/마스크 그룹 6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/마스크 그룹 7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/밀img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/사각형 -1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/사각형 -2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/사각형 121.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/사각형 128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/새우img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/생선img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/쇠고기img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/에셋-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/오징어img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/우유img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/조개img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/토마토img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/호두img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/흰살생선ims.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-en.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-en.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -62,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/file" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dorandoran.com" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -106,7 +82,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660268251499</updated>
-      <workItem from="1660268252666" duration="2129000" />
+      <workItem from="1660268252666" duration="2186000" />
+      <workItem from="1660274686699" duration="1886000" />
     </task>
     <servers />
   </component>
