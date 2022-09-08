@@ -205,7 +205,7 @@
 
 .footer {padding:40px 0; background-color:#002952;}
 .footer .wrap-big {width:1200px;}
-.footer .logo {margin-bottom:30px;}
+.footer .logo {display:none; margin-bottom:30px;}
 .footer .box-infos {display:flex;}
 .footer .infos:first-child {margin-right:100px;}
 .footer .info {display:flex; margin-bottom:15px;}
