@@ -203,14 +203,13 @@
 
 @media screen and (max-width:768px){}
 
-.footer {padding:40px 0; background-color:#002952;}
-.footer .wrap-big {width:1200px;}
+.footer {padding-top:30px; padding-bottom:40px; background-color:#F3F3F3;}
+.footer .line {content:""; width:100%; height:1px; padding-bottom:30px; border-top:1px solid rgba(112,112,112,0.09);}
+.footer .box-infos { text-align: center; }
+.footer .wrap-big {}
 .footer .logo {display:none; margin-bottom:30px;}
-.footer .box-infos {display:flex;}
-.footer .infos:first-child {margin-right:100px;}
-.footer .info {display:flex; margin-bottom:15px;}
-.footer .info:last-child {margin-bottom:0;}
-.footer .info * {color:#fff;}
+.footer .box-infos {}
+.footer .info {display:inline-block; margin:0 16px; margin-bottom:15px; font-size:15px; word-break: keep-all;}
 .footer .info-title {flex:0 0 auto; width:126px; padding-right:16px; font-size:16px; font-weight:bold;}
 .en .footer .info-title {width:160px; word-break: keep-all;}
 .footer .info-body {font-size:16px; line-height:20px; text-align: left;}
@@ -759,7 +758,7 @@
     .area-main .section08 .btn-download img {width:18px; top:0;}
     .area-main .section08 .deco {display:none;}
     .area-main .section08 .btn-top {width:80px; margin-top:60px;}
-    .footer {padding:40px;}
+    .footer {padding:20px;}
     .footer .box-infos {width:100%; flex-wrap:wrap;}
     .footer .info-title {width:90px; font-size:14px; line-height:30px;}
     .footer .info-body {flex:auto; font-size:14px;}
