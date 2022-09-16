@@ -307,7 +307,7 @@
 }
 .area-main .section {padding:100px 0;}
 .area-main .section .section-title {margin-bottom:80px; text-align: center;}
-.area-main .section .section-title .deco {margin-bottom:70px;}
+.area-main .section .section-title .deco {display:none; margin-bottom:70px;}
 .area-main .section .section-title .sub {display:block; width:100%; margin-bottom:20px; font-size:17px; letter-spacing: 6px;}
 .area-main .section .section-title .title {font-size:48px; line-height:60px; font-weight:bold;}
 .area-main .section .section-title .title .point {font-size:48px; line-height:60px; font-weight:400;}
