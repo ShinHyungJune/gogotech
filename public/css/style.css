@@ -702,10 +702,10 @@
     padding:20px;
 }
 @media screen and (max-width:1360px){
-
+    .area-main .section06-1 .body {word-break: keep-all; margin-top:-10px; font-size:14px;}
 }
 @media screen and (max-width:768px) {
-
+    .area-main .section06-1 .box-wrap img {width:120px !important;}
 }
 
 .area-main .section07 {padding-bottom:0; position:relative; text-align: center; }
