@@ -428,7 +428,7 @@
     font-size:24px; color:#fff; line-height:34px;
 }
 .area-main .section03 .content .btn {
-    display:block; width:300px;
+    display:block; width:340px;
     margin-bottom:18px; padding:14px;
     font-size:20px; font-weight:bold; text-align: center;
     background-color:#002952; color:#fff;
@@ -692,7 +692,23 @@
 @media screen and (max-width:768px) {
 
 }
-.area-main .section07 { position:relative; text-align: center; }
+.area-main .section06-1 .section-title {margin-bottom:10px;}
+.area-main .section06-1 .body {margin-bottom:40px; font-size:20px; text-align: center;}
+.area-main .section06-1 .boxes {
+    display:flex; align-items: center; justify-content: center;
+    margin:-20px;
+}
+.area-main .section06-1 .box-wrap {
+    padding:20px;
+}
+@media screen and (max-width:1360px){
+
+}
+@media screen and (max-width:768px) {
+
+}
+
+.area-main .section07 {padding-bottom:0; position:relative; text-align: center; }
 .area-main .section07 .banner {display:inline-block; position:relative;}
 .area-main .section07 .banner .content {
     position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);
@@ -712,7 +728,7 @@
 .area-main .section07 .banner02 .title {
     color:#A00015;
 }
-.area-main .section08 {padding-top:90px; padding-bottom:870px; position:relative;}
+.area-main .section08 {padding-top:0px; padding-bottom:100px; position:relative;}
 .area-main .section08 .btn-wrap {width:944px; margin:0 auto; }
 .area-main .section08 .btn-download {
     display:flex; align-items: flex-end; justify-content: center;
@@ -723,7 +739,7 @@
 }
 
 .area-main .section08 .btn-download img {margin-left:30px; position:relative; top:-4px;}
-.area-main .section08 .deco {position:absolute; bottom:0; right:0;}
+.area-main .section08 .deco {display:none; position:absolute; bottom:0; right:0;}
 .area-main .section08 .btn-top { display:block; margin:0 auto;  animation:wiggle2 1s infinite; margin-top:120px; position:relative; cursor:pointer;}
 @keyframes wiggle2 {
     0%{ top:-20px;}
