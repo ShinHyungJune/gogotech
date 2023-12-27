@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1400, user-scalable" />
 <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />-->
+    <meta name="naver-site-verification" content="f04952055f73f2d54bc9dc7898d998793508b679" />
     <title>{{config("app.name")}}</title>
     <link rel="shortcut icon" href="{{asset('/img/favicon.ico')}}">
     <link href="{{ asset('css/default.css') }}" rel="stylesheet" />
